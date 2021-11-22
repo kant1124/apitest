@@ -1,0 +1,29 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_post[验证post请求0]",
+    "uid" : "46db89c55bc9259",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1637219769442,
+      "stop" : 1637219772659,
+      "duration" : 3217
+    },
+    "flaky" : false,
+    "parameters" : [ "'验证post请求0'", "None", "{'host': 'http://10.125.128.8:9006', 'path': '/dc/lableclientcheck/groups/ingroup', 'data': {'SERVICE_NO': '18613992221', 'PRO_ID': '31', 'GROUP_ID': '28123376984', 'SERVICE_TYPE': '01000'}}" ]
+  }, {
+    "name" : "test_post[验证post请求1]",
+    "uid" : "180ab8aefe8d7199",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1637219772670,
+      "stop" : 1637219774973,
+      "duration" : 2303
+    },
+    "flaky" : false,
+    "parameters" : [ "'验证post请求1'", "None", "{'host': 'http://10.125.128.8:9006', 'path': '/dc/lableclientcheck/groups/ingroup', 'data': {'SERVICE_NO': '15533549226', 'PRO_ID': '18', 'GROUP_ID': '27918041757', 'SERVICE_TYPE': '01000'}}" ]
+  } ]
+}

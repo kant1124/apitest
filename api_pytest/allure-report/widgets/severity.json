@@ -1,0 +1,21 @@
+[ {
+  "uid" : "46db89c55bc9259",
+  "name" : "test_post[验证post请求0]",
+  "time" : {
+    "start" : 1637219769442,
+    "stop" : 1637219772659,
+    "duration" : 3217
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "180ab8aefe8d7199",
+  "name" : "test_post[验证post请求1]",
+  "time" : {
+    "start" : 1637219772670,
+    "stop" : 1637219774973,
+    "duration" : 2303
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

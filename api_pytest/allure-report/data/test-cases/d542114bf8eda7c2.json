@@ -1,0 +1,114 @@
+{
+  "uid" : "d542114bf8eda7c2",
+  "name" : "test_post[验证post请求0]",
+  "fullName" : "tests.test_post.Testpost#test_post",
+  "historyId" : "ed2792e45a863e88685a5f3433de05f9",
+  "time" : {
+    "start" : 1637219449834,
+    "stop" : 1637219450036,
+    "duration" : 202
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "env",
+    "time" : {
+      "start" : 1637219449833,
+      "stop" : 1637219449833,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "ces",
+      "time" : {
+        "start" : 1637219449834,
+        "stop" : 1637219450036,
+        "duration" : 202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "env",
+        "value" : "{'url': {'jingzhun': 'http://marathon-lb-dc.skyark.dcos.xixian.unicom.local:9006', 'cs': 'http://10.125.128.8:9006', 'xixians': 'http://10.172.32.196:9002', 'wuxis': 'http://10.188.33.67:62171'}}"
+      }, {
+        "name" : "case",
+        "value" : "'验证post请求0'"
+      }, {
+        "name" : "http",
+        "value" : "{'host': 'http://10.125.128.8:9006', 'path': '/dc/lableclientcheck/groups/ingroup', 'data': {'SERVICE_NO': '18613992221', 'PRO_ID': '31', 'GROUP_ID': '28123376984', 'SERVICE_TYPE': '01000'}}"
+      }, {
+        "name" : "expected",
+        "value" : "None"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_post"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testpost"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NFKEJVI"
+  }, {
+    "name" : "thread",
+    "value" : "16508-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_post"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "'验证post请求0'"
+  }, {
+    "name" : "expected",
+    "value" : "None"
+  }, {
+    "name" : "http",
+    "value" : "{'host': 'http://10.125.128.8:9006', 'path': '/dc/lableclientcheck/groups/ingroup', 'data': {'SERVICE_NO': '18613992221', 'PRO_ID': '31', 'GROUP_ID': '28123376984', 'SERVICE_TYPE': '01000'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d542114bf8eda7c2.json",
+  "parameterValues" : [ "'验证post请求0'", "None", "{'host': 'http://10.125.128.8:9006', 'path': '/dc/lableclientcheck/groups/ingroup', 'data': {'SERVICE_NO': '18613992221', 'PRO_ID': '31', 'GROUP_ID': '28123376984', 'SERVICE_TYPE': '01000'}}" ]
+}

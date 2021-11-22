@@ -1,0 +1,77 @@
+{
+  "uid" : "34c45bb8d63d537c",
+  "name" : "test_post[验证post请求0]",
+  "fullName" : "tests.test_post.Testpost#test_post",
+  "historyId" : "ed2792e45a863e88685a5f3433de05f9",
+  "time" : {
+    "start" : 1637219678681,
+    "stop" : 1637219685896,
+    "duration" : 7215
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "env",
+    "time" : {
+      "start" : 1637219678680,
+      "stop" : 1637219678680,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_post"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testpost"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NFKEJVI"
+  }, {
+    "name" : "thread",
+    "value" : "13228-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_post"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "'验证post请求0'"
+  }, {
+    "name" : "expected",
+    "value" : "None"
+  }, {
+    "name" : "http",
+    "value" : "{'host': 'http://10.125.128.8:9006', 'path': '/dc/lableclientcheck/groups/ingroup', 'data': {'SERVICE_NO': '18613992221', 'PRO_ID': '31', 'GROUP_ID': '28123376984', 'SERVICE_TYPE': '01000'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34c45bb8d63d537c.json",
+  "parameterValues" : [ "'验证post请求0'", "None", "{'host': 'http://10.125.128.8:9006', 'path': '/dc/lableclientcheck/groups/ingroup', 'data': {'SERVICE_NO': '18613992221', 'PRO_ID': '31', 'GROUP_ID': '28123376984', 'SERVICE_TYPE': '01000'}}" ]
+}

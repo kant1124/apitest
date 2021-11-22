@@ -1,0 +1,24 @@
+---
+tests:
+- case: 验证post请求0
+  http:
+    host: http://10.125.128.8:9006
+    path: /dc/lableclientcheck/groups/ingroup
+    data:
+      SERVICE_NO: '13263191178'
+      PRO_ID: '11'
+      GROUP_ID: '27985751781'
+      SERVICE_TYPE: '01000'
+  expected:
+
+- case: 验证post请求1
+  http:
+    host: http://10.125.128.8:9006
+    path: /dc/lableclientcheck/groups/ingroup
+    data:
+      SERVICE_NO: '15533549226'
+      PRO_ID: '18'
+      GROUP_ID: '27918041757'
+      SERVICE_TYPE: '01000'
+  expected:
+

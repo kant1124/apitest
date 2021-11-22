@@ -1,0 +1,5 @@
+url:
+  jingzhun: 'http://marathon-lb-dc.skyark.dcos.xixian.unicom.local:9006'
+  cs: 'http://10.125.128.8:9006'
+  xixians: 'http://10.172.32.196:9002'
+  wuxis: 'http://10.188.33.67:62171'
